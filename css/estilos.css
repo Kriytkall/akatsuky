@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a[class^="carousel-control"]{
+    opacity: 1;
+}
+
+a, li,  a:link, a:active, a:visited {
+    transition: 0.25s ease-out;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+:root{
+    scroll-behavior: smooth;
+  }
